@@ -1,5 +1,4 @@
-
-from botocore.utils import FileWebIdentityTokenLoader
+import FileWebIdentityTokenLoader
 import requests, re, sys, random, time, os, warnings, json
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 from colorama import *
